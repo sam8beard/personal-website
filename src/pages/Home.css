@@ -1,0 +1,20 @@
+/* Vertically position sections of page */
+.parent-container { 
+    display: flex; 
+    align-content: space-between;
+}
+
+.sammy-pic { 
+    width: 20em;
+}
+
+/* Horizontally position intro container */
+.intro-container { 
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.testing { 
+    display: flex;
+    justify-content: center; 
+}
