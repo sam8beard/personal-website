@@ -1,20 +1,44 @@
+* { 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+background { 
+    background-color: rgb(92, 45, 45);
+}
 /* Vertically position sections of page */
-.parent-container { 
+.parent-container {
+    background-color: rgb(92, 45, 45);
     display: flex; 
-    align-content: space-between;
+    align-content: center;
+    align-items: center;
+    border: 5px solid white;   
+    /* height: 100vh;  */
 }
 
 .sammy-pic { 
-    width: 20em;
+    /* display: flex; */
+    width: 5em;
+    border-radius: 20%;
+    /* margin: 5em; */
+    border: 10px solid white;
+}
+/* Horizontally position intro container, sub container of parent */
+.parent-item { 
+    width: 200px;    
+    justify-content: space-around;
+    /* align-items: center; */
+    border: 10px solid green;
+
+    /* flex-direction: row; */
+    /* align-items: flex-start; */
 }
 
-/* Horizontally position intro container */
-.intro-container { 
-    display: flex; 
-    justify-content: flex-end;
+/* Container that holds intro, pic, and description */
+.parent-item-1 { 
+    min-height: 100px;
 }
+.intro-container h1 { 
 
-.testing { 
-    display: flex;
-    justify-content: center; 
+}
+.intro-container p { 
+
 }
