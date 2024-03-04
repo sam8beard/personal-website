@@ -1,0 +1,43 @@
+* { 
+    box-sizing: border-box;
+}
+
+.navbar { 
+    background-color: #555;
+    color: white;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem; 
+    
+}
+
+.navbar ul { 
+    padding: 0; 
+    margin: 0;
+    list-style: none;
+    display: flex; 
+    gap: 1rem;
+}
+
+/* styling on links */
+.navbar a { 
+    color: inherit; 
+    text-decoration: none; 
+    height: 100%; 
+    display: flex; 
+    align-items: center;
+    padding: .25rem;
+    /* no underline */
+}
+
+/* changes highlight of currently active page */
+.navbar li.active { 
+    background-color: #444;
+
+}
+.navbar li:hover { 
+    background-color: #777;
+}
+
