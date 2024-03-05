@@ -1,6 +1,9 @@
 import './Nav.css'
 import React from 'react'
 import './Nav.css'
+import { Link } from 'react-router-dom'
+import About from './../pages/About'
+
 const Nav = () => { 
     return ( 
       
@@ -8,13 +11,16 @@ const Nav = () => {
          {/* <CustomLink href="/home"> Home </CustomLink> */}
             <ul>
                 <li> 
-                    <a href="/home"> Home </a>    
+                    {/* <a href="/home"> Home </a>     */}
+                    <Link to='/'> Home </Link>
                 </li> 
                 <li> 
-                    <a href="/about"> About </a>
+                    {/* <a href="/about"> About </a> */}
+                    <Link to='/about'> About </Link>
                 </li>
                 <li> 
-                    <a href="/contact"> Contact </a>
+                    {/* <a href="/contact"> Contact </a> */}
+                    <Link to='/contact'> Contact </Link>
                 </li>
             </ul>
          </nav>

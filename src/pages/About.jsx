@@ -1,6 +1,9 @@
 
 const About = () => { 
-    <h1> About </h1>
+    console.log("testing");
+    <div> 
+        HELLO
+    </div>
 } 
 
 export default About 
