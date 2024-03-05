@@ -10,6 +10,9 @@
     align-items: center;
     gap: 2rem;
     padding: 0 1rem; 
+    width: 100vw; 
+    height: 50px;
+    
     
 }
 

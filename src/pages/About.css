@@ -1,4 +1,6 @@
 .parent { 
     padding: 100px; 
     border: white 10px solid; 
+    width: 100vw; 
+    height: 100vh;
 }

@@ -1,9 +1,11 @@
-
+import './About.css'
 const About = () => { 
-    console.log("testing");
-    <div> 
-        HELLO
-    </div>
+
+    return (
+        <div className="parent"> 
+            HELLO
+        </div>
+    ) 
 } 
 
 export default About 
